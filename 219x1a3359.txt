@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+  int a1,a2,a3,s1,s2,s3,ch;
+  printf("1. Angles\n2. Sides of a Triangle");
+  printf("Enter a choice");
+  scanf("%d",&ch);
+  if (ch=1)
+   {
+    if (a1+a2+a3=180)
+     {
+       if (a1==a2 && a2==a3)
+        {
+         printf("It is Equilateral Triangle");
+        }
+       else if ((a1==a2 || a2==a3)
+        {
+         printf("Its is Isosceles Triangle");
+        }
+       else if ((a1==a2 || a2==a3) && (a1==90 || a2==90 || a3==90))
+        {
+         printf("Its is Isosceles Perpendicular Triangle");
+        }
+       else if (a1==90 || a2==90 || a3==90)
+        {
+         printf("Its is Isosceles Triangle") 
